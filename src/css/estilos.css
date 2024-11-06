@@ -1,0 +1,89 @@
+html{
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+}
+
+.header img{
+    height: 40px;
+    margin: 50px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    padding: 100px 80px 150px;
+}
+
+main section{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+section img{
+    max-width: 100%;
+}
+
+section .register{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.register h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.register .btn-register{
+    width: fit-content;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    border: #fff 10px solid;
+    border-radius: 50px;
+    padding: 4px 40px;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.568);
+}
+
+.register .btn-register:hover{
+    transition: 0.3s ease-in-out;
+    background-color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.register p{
+    font-weight: 300;
+}
+
+footer .social-media{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 50px;
+}
+
+footer .fab{
+    font-size: 13px;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .fab:hover{
+    transition: 0.3s ease-in-out;
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
